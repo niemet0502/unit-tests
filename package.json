@@ -1,0 +1,21 @@
+{
+  "name": "unit-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cchampou/unit-tests.git",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.4.6",
+    "jest": "^27.4.7"
+  },
+  "jest": {
+    "transform": {
+    }
+  }
+}
